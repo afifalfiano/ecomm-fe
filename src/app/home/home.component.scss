@@ -1,0 +1,20 @@
+@import '../../styles.scss';
+
+.banner {
+    @apply h-[653px] flex flex-col justify-start items-center;
+    background-image: url($apiR2Url + '/promotion.png');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+
+    .promotion {
+        @apply text-white max-w-screen-xl w-full mb-4 text-4xl font-extrabold text-gray-900 md:text-5xl lg:text-6xl;
+        margin: auto 0;
+        line-height: 82px !important;
+    }
+}
+
+.best-products {
+    @apply h-[356px] max-h-[356px] text-center;
+    transform: translateY(-200px);
+}
