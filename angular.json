@@ -39,6 +39,11 @@
             "outputMode": "server",
             "ssr": {
               "entry": "src/server.ts"
+            },
+            "stylePreprocessorOptions": {
+              "sass": {
+                "silenceDeprecations": ["mixed-decls", "color-functions", "global-builtin", "import"]
+              }
             }
           },
           "configurations": {
@@ -103,5 +108,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "e21c9f37-fbcd-4fab-ad9b-1850684e5066"
   }
 }
